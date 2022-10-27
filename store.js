@@ -71,7 +71,6 @@ function addItemToCart(title, price, imageSrc) {
         if (cartItemNames[i].innerText == title) {
             alert('This item is already added to the cart')
             return
-            77
         }
     }
 
