@@ -71,8 +71,11 @@ function addItemToCart(title, price, imageSrc) {
         if (cartItemNames[i].innerText == title) {
             alert('This item is already added to the cart')
             return
+            77
         }
     }
+
+
     var cartRowContents = `
         <div class="cart-item cart-column">
             <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
