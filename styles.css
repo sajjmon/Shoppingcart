@@ -31,7 +31,11 @@ body {
     text-decoration: none;
 }
 
-.main-nav {
+.nav a:hover {
+    border-bottom: 1px solid red;
+}
+
+. .main-nav {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
@@ -73,7 +77,7 @@ body {
 }
 
 .content-text {
-    max-width: 1000px;
+    max-width: 1100px;
 }
 
 .container-about {
@@ -276,6 +280,7 @@ small {
     height: 200px;
     width: 200px;
     margin: 15px;
+    margin-right: 100px;
     border-radius: 50%;
 }
 
