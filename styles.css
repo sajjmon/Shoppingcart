@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: #777;
 }
 
 html,
@@ -72,7 +71,7 @@ body {
 }
 
 .content-text {
-    max-width: 1100px;
+    max-width: 800px;
     padding: 20px;
 }
 
@@ -269,15 +268,13 @@ small {
     color: #333;
     text-align: center;
     font-size: 2.5em;
+    border-bottom: 2px solid rgb(255, 111, 0);
+    border-radius: 20px;
 }
 
-.about-band-image {
-    float: left;
-    height: 200px;
-    width: 200px;
-    margin: 15px;
-    margin-right: 100px;
-    border-radius: 50%;
+.border {
+    display: flex;
+    justify-content: center;
 }
 
 .main-footer {
@@ -297,7 +294,23 @@ small {
 }
 
 .footer-nav li {
-    padding: 0 .5em;
+    padding: 0.5em;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa {
+    color: #fff;
+}
+
+.contact {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    padding-bottom: 20px;
 }
 
 .footer-nav img {
@@ -313,7 +326,7 @@ small {
 }
 
 .btn-header {
-    margin: .5em 15% 2em 15%;
+    margin: .5em 15% 2em 40%;
     color: white;
     border: 2px solid #2D9CDB;
     background-color: rgba(255, 255, 255, .1);
