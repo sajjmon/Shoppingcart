@@ -1,13 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: Raleway;
-}
-
-html,
-body {
     margin: 0;
     padding: 0;
-    min-height: 100%;
 }
 
 .nav ul {
@@ -101,8 +95,16 @@ body {
 .row {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 521px) {
+    .row {
+        flex-direction: column;
+    }
+    .col-4 {
+        width: 100% !important;
+    }
 }
 
 .col-4 {
@@ -563,3 +565,6 @@ small {
     width: 1000px;
     padding: 4rem;
 }
+
+
+/* Mobile */
