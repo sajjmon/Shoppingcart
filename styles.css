@@ -60,6 +60,16 @@
     font-size: 8em;
 }
 
+@media screen and (max-width: 521px) {
+    .band-name-large {
+        font-size: 30px;
+    }
+    .band-name {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
 .content-section {
     margin: 1em;
 }
@@ -173,6 +183,20 @@ h4 {
     padding: 50px;
 }
 
+@media screen and (max-width: 521px) {
+    .col-2 .offer-img {
+        padding: 0px;
+    }
+    .offer {
+        margin-top: 10px;
+        padding: 0px;
+    }
+    .small-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
 small {
     color: #555;
 }
@@ -208,6 +232,25 @@ small {
     background: #563434;
 }
 
+@media screen and (max-width: 521px) {
+    .col-2 h1 {
+        font-size: 20px;
+        line-height: 5px;
+    }
+    .col-2 {
+        display: grid;
+    }
+    .btn {
+        margin: auto;
+    }
+    small {
+        padding-bottom: 10px;
+    }
+    .col-2 p {
+        padding-top: 5px;
+    }
+}
+
 
 /* end */
 
@@ -218,6 +261,23 @@ small {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 521px) {
+    .row-1 {
+        flex-direction: column;
+    }
+    .fa.fa-quote-left {
+        font-size: 25px !important;
+    }
+    .col-3 p {
+        font-size: 15px !important;
+        margin: 8px 0 !important;
+    }
+    .testimonial .col-3 img {
+        height: auto !important;
+        margin-top: 10px !important;
+    }
 }
 
 .testimonial {
@@ -289,6 +349,20 @@ small {
     align-items: center;
 }
 
+@media screen and (max-width: 521px) {
+    .main-footer-container {
+        flex-direction: column;
+    }
+    .contact {
+        display: flex;
+        justify-content: center;
+    }
+    .fa-envelope,
+    .fa-phone {
+        padding-right: 5px;
+    }
+}
+
 .main-footer-container ul {
     flex-grow: 1;
     text-align: end;
@@ -336,6 +410,14 @@ small {
     font-weight: lighter;
     padding-left: 2em;
     padding-right: 2em;
+}
+
+@media screen and (max-width: 521px) {
+    .btn-header {
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 .btn-header:hover {
