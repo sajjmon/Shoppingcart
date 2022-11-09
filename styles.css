@@ -65,8 +65,20 @@
         font-size: 30px;
     }
     .band-name {
+        font-size: 30px;
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
+    }
+    .content-text {
+        width: 100%;
+        padding: 0px !important;
+        padding-top: 15px !important;
+    }
+    .content-text h2 {
+        font-size: 20px;
+    }
+    .content-text p {
+        font-size: 15px;
     }
 }
 
@@ -114,6 +126,9 @@
     }
     .col-4 {
         width: 100% !important;
+    }
+    .container-about {
+        padding-bottom: 40px;
     }
 }
 
@@ -278,6 +293,10 @@ small {
         height: auto !important;
         margin-top: 10px !important;
     }
+    .testimonial {
+        padding-top: 20px !important;
+        padding-bottom: 0px !important;
+    }
 }
 
 .testimonial {
@@ -333,6 +352,13 @@ small {
     border-radius: 20px;
 }
 
+@media screen and (max-width: 521px) {
+    .section-header {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+}
+
 .border {
     display: flex;
     justify-content: center;
@@ -360,6 +386,11 @@ small {
     .fa-envelope,
     .fa-phone {
         padding-right: 5px;
+    }
+    .footer-nav img {
+        width: 20px !important;
+        height: 20px !important;
+        margin-bottom: 10px;
     }
 }
 
@@ -417,6 +448,9 @@ small {
         font-size: 20px;
         padding-left: 5px;
         padding-right: 5px;
+    }
+    .btn {
+        margin-bottom: 10px;
     }
 }
 
@@ -617,9 +651,39 @@ small {
     padding-bottom: 40px;
 }
 
+@media screen and (max-width: 521px) {
+    .about-info h2 {
+        font-size: 20px !important;
+    }
+    .about-info {
+        width: 100%;
+        padding: 1rem;
+        height: auto;
+        padding-bottom: 100px;
+    }
+    .img-about {
+        width: 100%;
+        height: auto;
+    }
+    .buttons {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .content-information {
+        flex-direction: column;
+    }
+    .about-info p {
+        width: 100%;
+    }
+    .about-info a {
+        max-width: 200px;
+    }
+}
+
 .about-info h2 {
     color: #fff;
     font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .about-info a {
@@ -647,6 +711,3 @@ small {
     width: 1000px;
     padding: 4rem;
 }
-
-
-/* Mobile */
