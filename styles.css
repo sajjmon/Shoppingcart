@@ -92,9 +92,8 @@
 }
 
 .container-about {
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1.5em;
+    padding: 4em;
     padding-bottom: 100px;
 }
 
@@ -128,7 +127,8 @@
         width: 100% !important;
     }
     .container-about {
-        padding-bottom: 40px;
+        width: 100%;
+        padding: 2rem;
     }
 }
 
@@ -346,6 +346,7 @@ small {
 .section-header {
     font-weight: normal;
     color: #333;
+    margin-top: 20px;
     text-align: center;
     font-size: 2.5em;
     border-bottom: 2px solid rgb(255, 111, 0);
@@ -676,7 +677,7 @@ small {
         width: 100%;
     }
     .about-info a {
-        max-width: 200px;
+        max-width: 140px;
     }
 }
 
