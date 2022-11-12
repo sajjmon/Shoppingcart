@@ -79,6 +79,7 @@
     }
     .content-text p {
         font-size: 15px;
+        max-width: 100%;
     }
 }
 
@@ -119,16 +120,17 @@
     justify-content: space-around;
 }
 
-@media screen and (max-width: 521px) {
+@media screen and (max-width: 721px) {
     .row {
-        flex-direction: column;
+        display: flex;
+        flex-direction: column !important;
     }
     .col-4 {
         width: 100% !important;
     }
     .container-about {
-        width: 100%;
-        padding: 2rem;
+        width: 100% !important;
+        padding: 2rem !important;
     }
 }
 
@@ -280,7 +282,7 @@ small {
 
 @media screen and (max-width: 521px) {
     .row-1 {
-        flex-direction: column;
+        flex-direction: column !important;
     }
     .fa.fa-quote-left {
         font-size: 25px !important;
@@ -453,6 +455,9 @@ small {
     .btn {
         margin-bottom: 10px;
     }
+    .btn-primary {
+        margin-right: 10px;
+    }
 }
 
 .btn-header:hover {
@@ -501,6 +506,15 @@ small {
     color: #333;
 }
 
+@media screen and (max-width: 521px) {
+    .shop-item-price {
+        margin-left: 10px;
+    }
+    .cart-row {
+        flex-direction: column;
+    }
+}
+
 .shop-items {
     display: flex;
     flex-wrap: wrap;
@@ -538,6 +552,18 @@ small {
 
 .cart-quantity {
     width: 35%;
+}
+
+@media screen and (max-width: 521px) {
+    .cart-item {
+        width: 15%;
+    }
+    .cart-quantity {
+        width: 30%;
+    }
+    .cart-price {
+        width: 18%;
+    }
 }
 
 .cart-item-title {
@@ -655,12 +681,13 @@ small {
 @media screen and (max-width: 521px) {
     .about-info h2 {
         font-size: 20px !important;
+        padding-bottom: 5px !important;
     }
     .about-info {
         width: 100%;
         padding: 1rem;
         height: auto;
-        padding-bottom: 100px;
+        padding-bottom: 80px;
     }
     .img-about {
         width: 100%;
@@ -668,16 +695,19 @@ small {
     }
     .buttons {
         display: flex !important;
-        flex-direction: column !important;
+        padding-bottom: 15px;
     }
     .content-information {
         flex-direction: column;
     }
     .about-info p {
-        width: 100%;
+        width: 100% !important;
     }
     .about-info a {
         max-width: 140px;
+    }
+    .position-company {
+        padding: 1rem !important;
     }
 }
 
