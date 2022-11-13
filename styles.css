@@ -451,6 +451,7 @@ small {
         font-size: 20px;
         padding-left: 5px;
         padding-right: 5px;
+        margin: 1em 2% 1em 32%;
     }
     .btn {
         margin-bottom: 10px;
