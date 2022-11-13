@@ -132,6 +132,9 @@
         width: 100% !important;
         padding: 2rem !important;
     }
+    .container {
+        padding: 0px;
+    }
 }
 
 .col-4 {
@@ -202,7 +205,7 @@ h4 {
 
 @media screen and (max-width: 521px) {
     .col-2 .offer-img {
-        padding: 0px;
+        padding: 10px;
     }
     .offer {
         margin-top: 10px;
@@ -456,9 +459,6 @@ small {
     .btn {
         margin-bottom: 10px;
     }
-    .btn-primary {
-        margin-right: 10px;
-    }
 }
 
 .btn-header:hover {
@@ -496,6 +496,13 @@ small {
     height: 300px;
 }
 
+@media screen and (max-width: 521px) {
+    .shop-item-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
 .shop-item-details {
     display: flex;
     align-items: center;
@@ -508,11 +515,9 @@ small {
 }
 
 @media screen and (max-width: 521px) {
-    .shop-item-price {
-        margin-left: 10px;
-    }
     .cart-row {
         flex-direction: column;
+        padding: 10px;
     }
 }
 
@@ -634,6 +639,12 @@ small {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+}
+
+@media screen and (max-width: 521px) {
+    .btn-purchase {
+        font-size: 1em;
+    }
 }
 
 
